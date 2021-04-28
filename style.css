@@ -1,0 +1,51 @@
+h1 {}
+
+p {}
+
+div {}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Spotify {
+    position: fixed;
+    right: 10px;
+}
+
+footer {
+    background-color: seagreen;
+    right: 0px;
+    left: 0px;
+}
+
+.fa {
+    font-size: 10px;
+    color: white;
+    text-align: center;
+}
+
+.fa-twitter {
+    background-color: #1DA1F2;
+    margin: 50px 10px;
+    padding: 50px;
+}
+
+.btn {
+    color: black;
+    background-color: transparent;
+    padding: 15px 5px;
+    margin: 10px 5px;
+    text-align: center;
+    text-overflow: clip;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover {
+    background-color: gold;
+}
+
+#resume {
+    margin-top: 5%;
+}
