@@ -1,7 +1,12 @@
+<!-- This is reason why devs use a seperate document for css. Have fun reading everything lol-->
+
 <!DOCTYPE html>
 <html>
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
     <style>
         h1 {}
         
@@ -9,24 +14,80 @@
         
         div {}
         
-        body {}
+        body {
+            margin: 0px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        
+        #Spotify {
+            position: fixed;
+            right: 10px;
+        }
+        
+        footer {
+            background-color: seagreen;
+            right: 0px;
+            left: 0px;
+        }
+        
+        .fa {
+            font-size: 10px;
+            color: white;
+            text-align: center;
+        }
+        
+        .fa-twitter {
+            background-color: #1DA1F2;
+            margin: 50px 10px;
+            padding: 50px;
+        }
+        
+        .btn {
+            color: black;
+            background-color: transparent;
+            padding: 15px 5px;
+            margin: 10px 5px;
+            text-align: center;
+            text-overflow: clip;
+            transition: background-color 0.5s ease-in-out;
+        }
+        
+        .btn:hover {
+            background-color: gold;
+        }
+        
+        #resume {
+            margin-top: 5%;
+        }
     </style>
 </head>
 
 <header>
-    <h2>About Me</h2>
+
 </header>
 
 <body>
 
-    <div>
-        <p> Hello, My name Is Haichuan Wei and I am a computer scientist studying at Ohlone College.This page was created with my skills in coding and Ui desgnin. </p>
+    <div id="intro">
+        <h2>About Me</h2>
+        <p> Hello, My name Is Haichuan Wei and I am a computer scientist studying at Ohlone College.This page was created by me using Raw Html an CSS . </p>
+    </div>
+    <div id="Spotify">
+        <iframe src="https://open.spotify.com/embed/playlist/1n26ytGLh3d05h7hArSC3T" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
     </div>
 
-    <iframe src="https://open.spotify.com/embed/playlist/1n26ytGLh3d05h7hArSC3T" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <div id="resume">
+        <p>For A more detailed view about me, check out my resume!</p>
+        <a href="https://ohlone.instructure.com/eportfolios/403/entries/644/files/101rv7hqn76onj9PLhTBsOmFM5sY25wxZXTNrM9F"> <button class="btn"> Haichuan Wei's Resume </button>
+        </a>
+    </div>
 
 </body>
 <footer>
+    <h4>Contact Me!</h4>
+    <p> Here are the lists of my social media if you want to conact me. </p>
+    <a href="https://twitter.com/WeiHaichuan" class="fa fa-twitter"></a>
+
 
 </footer>
 
