@@ -1,6 +1,6 @@
 body {
   margin: 0px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #NavBar {
@@ -12,6 +12,7 @@ body {
 #Spotify {
   position: fixed;
   right: 0px;
+  display: none;
 }
 
 .fa {
@@ -20,82 +21,107 @@ body {
   text-align: center;
   text-decoration: none;
 }
+
 .fa.fa-google {
   background-color: #1DA1F2;
   font-size: 25px;
-  margin: 50px 10px;
-  padding: 50px;
+  margin: 25px 5px;
+  padding: 20px;
 }
+
 .fa.fa-google:hover {
   background-color: white;
   color: #1DA1F2;
+  -webkit-transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   border-radius: 20px;
 }
+
 .fa.fa-instagram {
   background-color: #1DA1F2;
   font-size: 25px;
-  margin: 50px 10px;
-  padding: 50px;
+  margin: 25px 5px;
+  padding: 20px;
 }
+
 .fa.fa-instagram:hover {
   background-color: white;
   color: #1DA1F2;
+  -webkit-transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   border-radius: 20px;
 }
+
 .fa.fa-twitter {
   font-size: 25px;
-  margin: 50px 10px;
-  padding: 50px;
+  margin: 25px 5px;
+  padding: 20px;
   background-color: #1DA1F2;
 }
+
 .fa.fa-twitter:hover {
   background-color: white;
   color: #1DA1F2;
+  -webkit-transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   border-radius: 20px;
 }
+
 .fa.fa-facebook {
   font-size: 25px;
-  margin: 50px 10px;
-  padding: 50px;
+  margin: 25px 5px;
+  padding: 20px;
   background-color: #1778F2;
 }
+
 .fa.fa-facebook:hover {
   background-color: white;
   color: #1778F2;
+  -webkit-transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   border-radius: 20px;
 }
+
 .fa.fa-github {
   font-size: 25px;
-  margin: 50px 10px;
-  padding: 50px;
+  margin: 25px 5px;
+  padding: 20px;
   background-color: #1DA1F2;
 }
+
 .fa.fa-github:hover {
   background-color: white;
   color: #1DA1F2;
+  -webkit-transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   border-radius: 20px;
 }
+
 .fa.fa-linkedin {
   font-size: 25px;
-  margin: 50px 10px;
-  padding: 50px;
+  margin: 25px 5px;
+  padding: 20px;
   background-color: #0e76a8;
 }
+
 .fa.fa-linkedin:hover {
   background-color: #333333;
   color: #0e76a8;
+  -webkit-transition: ease-in 0.5s;
   transition: ease-in 0.5s;
   border-radius: 20px;
+}
+
+#social {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
 }
 
 .btn {
@@ -105,8 +131,10 @@ body {
   margin: 10px 5px;
   text-align: center;
   text-overflow: clip;
+  -webkit-transition: background-color 0.5s ease-in-out;
   transition: background-color 0.5s ease-in-out;
 }
+
 .btn:hover {
   background-color: gold;
 }
@@ -114,5 +142,4 @@ body {
 #resume {
   margin-top: 5%;
 }
-
 /*# sourceMappingURL=style.css.map */
