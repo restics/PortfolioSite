@@ -1,12 +1,14 @@
 @mixin socialsize {
     font-size: 25px;
-    margin: 25px 5px;
-    padding: 20px;
+    margin: 5px 5px;
+    padding: 20px 20px;
+    height: 25px;
+    width: 25px;
 }
 
 @mixin socialhover {
-    transition: ease-in 0.5s;
-    border-radius: 20px;
+    transition: ease-out 0.5s;
+    background: white;
 }
 
 body {
@@ -29,65 +31,56 @@ body {
 footer {}
 
 .fa {
-    font-size: 10px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     text-decoration: none;
-    &.fa-google {
-        background-color: #1DA1F2;
+    &.fa-telegram {
+        background: linear-gradient(#0088CC);
         @include socialsize();
         &:hover {
-            background-color: white;
-            color: #1DA1F2;
-            transition: ease-in 0.5s;
+            color: #0088CC;
             @include socialhover();
         }
     }
     &.fa-instagram {
-        background-color: #1DA1F2;
+        background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
         @include socialsize();
         &:hover {
-            background-color: white;
             color: #1DA1F2;
-            transition: ease-in 0.5s;
             @include socialhover();
         }
     }
     &.fa-twitter {
         @include socialsize();
-        background-color: #1DA1F2;
+        background: linear-gradient(#1DA1F2);
         &:hover {
-            background-color: white;
             color: #1DA1F2;
-            transition: ease-in 0.5s;
             @include socialhover();
         }
     }
     &.fa-facebook {
         @include socialsize();
-        background-color: #1778F2;
+        background: linear-gradient(#1778F2);
         &:hover {
-            background-color: white;
             color: #1778F2;
-            transition: ease-in 0.5s;
             @include socialhover();
         }
     }
     &.fa-github {
         @include socialsize();
-        background-color: #1DA1F2;
+        background: linear-gradient(#211F1F);
         &:hover {
-            background-color: white;
-            color: #1DA1F2;
-            transition: ease-in 0.5s;
+            color: #211F1F;
             @include socialhover();
         }
     }
     &.fa-linkedin {
         @include socialsize();
-        background-color: #0e76a8;
+        background: linear-gradient(#0e76a8);
         &:hover {
-            background-color: #333333;
             color: #0e76a8;
             @include socialhover();
         }
@@ -95,8 +88,8 @@ footer {}
 }
 
 #social {
-    display: grid;
-    grid-template-columns: auto;
+    display: flex;
+    justify-content: right;
 }
 
 .btn {

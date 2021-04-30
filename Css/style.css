@@ -16,112 +16,128 @@ body {
 }
 
 .fa {
-  font-size: 10px;
   color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
   text-decoration: none;
 }
 
-.fa.fa-google {
-  background-color: #1DA1F2;
+.fa.fa-telegram {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0088CC));
+  background: linear-gradient(#0088CC);
   font-size: 25px;
-  margin: 25px 5px;
-  padding: 20px;
+  margin: 5px 5px;
+  padding: 20px 20px;
+  height: 25px;
+  width: 25px;
 }
 
-.fa.fa-google:hover {
-  background-color: white;
-  color: #1DA1F2;
-  -webkit-transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  border-radius: 20px;
+.fa.fa-telegram:hover {
+  color: #0088CC;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  background: white;
 }
 
 .fa.fa-instagram {
-  background-color: #1DA1F2;
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
   font-size: 25px;
-  margin: 25px 5px;
-  padding: 20px;
+  margin: 5px 5px;
+  padding: 20px 20px;
+  height: 25px;
+  width: 25px;
 }
 
 .fa.fa-instagram:hover {
-  background-color: white;
   color: #1DA1F2;
-  -webkit-transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  border-radius: 20px;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  background: white;
 }
 
 .fa.fa-twitter {
   font-size: 25px;
-  margin: 25px 5px;
-  padding: 20px;
-  background-color: #1DA1F2;
+  margin: 5px 5px;
+  padding: 20px 20px;
+  height: 25px;
+  width: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1DA1F2));
+  background: linear-gradient(#1DA1F2);
 }
 
 .fa.fa-twitter:hover {
-  background-color: white;
   color: #1DA1F2;
-  -webkit-transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  border-radius: 20px;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  background: white;
 }
 
 .fa.fa-facebook {
   font-size: 25px;
-  margin: 25px 5px;
-  padding: 20px;
-  background-color: #1778F2;
+  margin: 5px 5px;
+  padding: 20px 20px;
+  height: 25px;
+  width: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1778F2));
+  background: linear-gradient(#1778F2);
 }
 
 .fa.fa-facebook:hover {
-  background-color: white;
   color: #1778F2;
-  -webkit-transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  border-radius: 20px;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  background: white;
 }
 
 .fa.fa-github {
   font-size: 25px;
-  margin: 25px 5px;
-  padding: 20px;
-  background-color: #1DA1F2;
+  margin: 5px 5px;
+  padding: 20px 20px;
+  height: 25px;
+  width: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#211F1F));
+  background: linear-gradient(#211F1F);
 }
 
 .fa.fa-github:hover {
-  background-color: white;
-  color: #1DA1F2;
-  -webkit-transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  border-radius: 20px;
+  color: #211F1F;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  background: white;
 }
 
 .fa.fa-linkedin {
   font-size: 25px;
-  margin: 25px 5px;
-  padding: 20px;
-  background-color: #0e76a8;
+  margin: 5px 5px;
+  padding: 20px 20px;
+  height: 25px;
+  width: 25px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0e76a8));
+  background: linear-gradient(#0e76a8);
 }
 
 .fa.fa-linkedin:hover {
-  background-color: #333333;
   color: #0e76a8;
-  -webkit-transition: ease-in 0.5s;
-  transition: ease-in 0.5s;
-  border-radius: 20px;
+  -webkit-transition: ease-out 0.5s;
+  transition: ease-out 0.5s;
+  background: white;
 }
 
 #social {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: auto;
-      grid-template-columns: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
 }
 
 .btn {
