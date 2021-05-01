@@ -16,15 +16,20 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-#NavBar {
+header {
+    background-color: #0088CC;
+    top: 0px;
+}
+
+#Navlist {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    position: flex;
 }
 
 #Spotify {
-    position: fixed;
-    right: 0px;
+    position: flex;
+    justify-content: right;
+    align-items: center;
     display: none;
 }
 

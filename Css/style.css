@@ -3,15 +3,24 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-#NavBar {
+header {
+  background-color: #0088CC;
+  top: 0px;
+}
+
+#Navlist {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  position: flex;
 }
 
 #Spotify {
-  position: fixed;
-  right: 0px;
+  position: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   display: none;
 }
 
