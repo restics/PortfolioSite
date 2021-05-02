@@ -10,3 +10,5 @@ function openNav(){
 function closeNav(){
     document.getElementById("Spotify").style.width = "0";
 }
+
+

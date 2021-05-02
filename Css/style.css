@@ -5,12 +5,48 @@ body {
 
 header {
   background-color: #0088CC;
-  top: 0px;
 }
 
 #Navlist {
-  list-style-type: none;
-  position: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Navlist a {
+  text-decoration: none;
+  margin: 50px 50px;
+  color: white;
+}
+
+#Navlist img {
+  height: 100px;
+}
+
+#social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+  width: 50%;
+}
+
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #Spotify {
@@ -43,8 +79,8 @@ header {
   background: -webkit-gradient(linear, left top, left bottom, from(#0088CC));
   background: linear-gradient(#0088CC);
   font-size: 25px;
-  margin: 5px 5px;
-  padding: 20px 20px;
+  margin: 5px 15px;
+  padding: 20px;
   height: 25px;
   width: 25px;
 }
@@ -59,8 +95,8 @@ header {
 .fa.fa-instagram {
   background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
   font-size: 25px;
-  margin: 5px 5px;
-  padding: 20px 20px;
+  margin: 5px 15px;
+  padding: 20px;
   height: 25px;
   width: 25px;
 }
@@ -74,8 +110,8 @@ header {
 
 .fa.fa-twitter {
   font-size: 25px;
-  margin: 5px 5px;
-  padding: 20px 20px;
+  margin: 5px 15px;
+  padding: 20px;
   height: 25px;
   width: 25px;
   background: -webkit-gradient(linear, left top, left bottom, from(#1DA1F2));
@@ -91,8 +127,8 @@ header {
 
 .fa.fa-facebook {
   font-size: 25px;
-  margin: 5px 5px;
-  padding: 20px 20px;
+  margin: 5px 15px;
+  padding: 20px;
   height: 25px;
   width: 25px;
   background: -webkit-gradient(linear, left top, left bottom, from(#1778F2));
@@ -108,8 +144,8 @@ header {
 
 .fa.fa-github {
   font-size: 25px;
-  margin: 5px 5px;
-  padding: 20px 20px;
+  margin: 5px 15px;
+  padding: 20px;
   height: 25px;
   width: 25px;
   background: -webkit-gradient(linear, left top, left bottom, from(#211F1F));
@@ -125,8 +161,8 @@ header {
 
 .fa.fa-linkedin {
   font-size: 25px;
-  margin: 5px 5px;
-  padding: 20px 20px;
+  margin: 5px 15px;
+  padding: 20px;
   height: 25px;
   width: 25px;
   background: -webkit-gradient(linear, left top, left bottom, from(#0e76a8));
@@ -138,15 +174,6 @@ header {
   -webkit-transition: ease-out 0.5s;
   transition: ease-out 0.5s;
   background: white;
-}
-
-#social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
 }
 
 .btn {
@@ -166,5 +193,49 @@ header {
 
 #resume {
   margin-top: 5%;
+}
+
+#splash {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/00100lPORTRAIT_00100_BURST20190330211252751_COVER.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/00100lPORTRAIT_00100_BURST20190330211252751_COVER.jpg");
+  background-position: center center;
+  height: 400px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 56.25%;
+}
+
+#splash h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'azonixregular';
+  color: white;
+}
+
+#splash p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+@media (max-width: 1400px) {
+  #social {
+    display: none;
+  }
 }
 /*# sourceMappingURL=style.css.map */

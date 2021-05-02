@@ -1,7 +1,7 @@
 @mixin socialsize {
     font-size: 25px;
-    margin: 5px 5px;
-    padding: 20px 20px;
+    margin: 5px 15px;
+    padding: 20px;
     height: 25px;
     width: 25px;
 }
@@ -18,12 +18,33 @@ body {
 
 header {
     background-color: #0088CC;
-    top: 0px;
 }
 
 #Navlist {
-    list-style-type: none;
-    position: flex;
+    display: flex;
+    a {
+        text-decoration: none;
+        margin: 50px 50px;
+        color: white;
+    }
+    &:hover {}
+    img {
+        height: 100px;
+    }
+}
+
+#social {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    float: right;
+    width: 50%;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #Spotify {
@@ -92,11 +113,6 @@ footer {}
     }
 }
 
-#social {
-    display: flex;
-    justify-content: right;
-}
-
 .btn {
     color: black;
     background-color: transparent;
@@ -112,4 +128,33 @@ footer {}
 
 #resume {
     margin-top: 5%;
+}
+
+#splash {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/00100lPORTRAIT_00100_BURST20190330211252751_COVER.jpg");
+    background-position: center center;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 56.25%;
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'azonixregular';
+        color: white;
+    }
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+}
+
+@media (max-width: 1400px) {
+    #social {
+        display: none;
+    }
 }
