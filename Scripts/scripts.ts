@@ -11,4 +11,10 @@ function closeNav(){
     document.getElementById("Spotify").style.width = "0";
 }
 
+function arrowmove(){
+var x = document.getElementById("Arrows");
+
+x.style.transform
+
+}
 
